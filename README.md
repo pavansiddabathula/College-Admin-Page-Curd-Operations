@@ -21,10 +21,12 @@ Update: Modifying existing records with pre-filled forms for easy updates.
 
 Delete: Securely removing records, with confirmation prompts to avoid accidental deletions.
 5. User Feedback
+
 Success Messages: Green notifications confirm the successful completion of operations.
 
 Error Messages: Red alerts inform the user of any issues, ensuring quick troubleshooting.
 Technologies and Tools
+
 
 Backend
 XAMPP (MySQL server): For database management, providing efficient data storage and retrieval.
@@ -36,11 +38,13 @@ HTML and CSS: Used for creating the user interface and styling the application.
 Development Environment
 Eclipse IDE: Used for coding, debugging, and managing the project, offering a comprehensive development environment.
 
+
 Future Enhancements
 
 While the current implementation using HTML and CSS provides a solid foundation, there is potential to enhance the user experience and efficiency by integrating JavaScript. This could allow for more dynamic functionalities, such as real-time data filtering and interactive UI components.
 
 Learning Experience
+
 This project has been an invaluable part of my journey in learning full-stack development. It has deepened my understanding of:
 
 JDBC Connectivity: For connecting Java applications to databases.
@@ -52,6 +56,7 @@ Installation and Setup
 Set up the database:
 
 Use XAMPP to create a MySQL database.
+
 Import the provided SQL script to set up the necessary tables.
 Configure the application:
 
