@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*background-image: url('../images/.jpg');*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form .form-group input,
+form .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form .form-group.gender {
+    display: flex;
+    align-items: center;
+}
+
+form .form-group.gender label {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+form .form-group.gender input {
+    margin-right: 5px;
+}
+
+form .form-actions {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+form .form-actions button {
+    background-color: black;
+    color:white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin:10px;
+    transition: background-color 0.3s ease;
+}
+
+form .form-actions button:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+form .form-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+.message
+{
+	background-color:green;
+	color:white;
+}
+

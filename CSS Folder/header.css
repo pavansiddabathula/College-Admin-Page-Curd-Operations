@@ -1,0 +1,76 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    height: 7vh; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 15px; 
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.header ul li {
+    margin: 1px 7px; 
+}
+
+.header ul li a {
+    color: black;
+    padding: 7px; 
+    font-size: 1.2rem; 
+    display: block;
+}
+
+.header ul li a button {
+    background: none; 
+    border: none;
+    font-size: 1.2rem; 
+    cursor: pointer;
+}
+
+.header ul li a:hover {
+    background-color: #555;
+    color: white;
+    border-radius: 15px;
+}
+
+body {
+    background-image: url('../images/college.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+iframe {
+    width: 100%; 
+    border: 2px solid #000; 
+    height: 91vh; 
+    box-sizing: border-box;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 4px;
+    height: 6vh;
+}
+
+footer h1 {
+    text-align: center;
+    padding: 4px;
+}
